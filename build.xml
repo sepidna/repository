@@ -58,7 +58,7 @@
 <exec executable="cmd">
 <arg line="/c php C:\xampp\tools\phpcs.phar --report=checkstyle --report-file='${basedir}/build/logs/checkstyle.xml' --standard='${basedir}/phpcs.xml' -p app "/>
 </exec>
-</target>
+</target> 
 <target name="phpcb">
 <exec executable="cmd">
 <arg line="/c C:\xampp\tools\phpcb.phar --log='${basedir}/build/logs' --output='${basedir}/build/logs/phpcs' --source='${basedir}/app' "/>
