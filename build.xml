@@ -10,6 +10,13 @@
 <mkdir dir="${basedir}/build/logs"/>
 <mkdir dir="${basedir}/build/pdepend"/>
 <mkdir dir="${basedir}/build/phpcb"/>
+
+<copy todir="C:\xampp\htdocs">
+    <fileset dir="C:\GitHub\repository\repository\src">
+      <exclude name="*/*"/>
+    </fileset>
+  </copy>
+
 </target>
 <!--
  Run the pdepend, phpmd, phpcpd, phpcs, phpdoc and phploc tasks in parallel
