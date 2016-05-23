@@ -58,7 +58,7 @@
 
 <div class="container">
 
-  <h2>Explorer-LoyaltyOne</h2>
+  <h2>Explorer</h2>
   <form action="" method="post" role="form">
     <div class="form-group">
       <label for="usr">Enter a word ( Max lenght 8 ) :</label>
